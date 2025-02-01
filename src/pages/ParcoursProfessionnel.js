@@ -17,7 +17,7 @@ const ParcoursProfessionnel = () => {
           pour un total de 4 ans dans une société du BTP. J'y avait pour mission
           de faire l'analyse fonctionnelle, la programmation, la mise en service
           et les tests d'équipements de régulation automatique du Chauffage,
-          Ventilation, Climatisation(CVC) des bureaux, écoles, entrepôts
+          Ventilation, Climatisation(CVC) des bureaux, écoles, entrepôts.
         </p>
         <br />
         <h2>Reconversion</h2>
@@ -25,7 +25,14 @@ const ParcoursProfessionnel = () => {
           Au final, je me suis rendu compte que l'environnement de travail
           quand-on travaille dans le BTP(bruit, poussière, température...)
           étaient des choses auxquelles je ne pourrait m'y habituer. C'est
-          pourquoi, j'ai arrêté d'être salarié de cette société en juillet 2022
+          pourquoi, j'ai arrêté d'être salarié de cette société en juillet 2022.
+        </p>
+        <br />
+        <h2>2e année en informatique - stage à Ekinops</h2>
+        <p>
+          Développement sur l'environnement de test Jenkins pour lancer 
+          un second build reprenant les tests échoués du 1e build chaque nuit, 
+          permettant aux testeurs de gagner beaucoup de temps.
         </p>
       </div>
     </div>
