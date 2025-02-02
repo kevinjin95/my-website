@@ -6,7 +6,6 @@ body {
 
 .Main {
   display: flex;
-  justify-content: space-around;
   margin-right: 2em;
 }
 
@@ -32,6 +31,7 @@ h1 {
 li {
   display: flex;
 }
+
 .navigation ul li {
   margin-top: 0.6em; /* grossit l'espacement */
   margin-left: -2em; /* grossit l'espacement */
@@ -50,10 +50,6 @@ ul {
   text-decoration: none;
   margin-top: 50px;
 }
-
-/* .Logo {
-  size: 100px;
-} */
 
 .projet {
   justify-content: space-between;
@@ -83,6 +79,13 @@ ul {
   font-size: 1.2em;
 }
 
+.Content ul {
+  margin-top: 1rem;
+}
+
+.Content ul li {
+  margin-top: 0.5rem;
+}
 .projet img {
   width: 50em;
   height: 30em;
@@ -96,3 +99,4 @@ ul {
   display: flex;
   justify-content:center;
 }
+
