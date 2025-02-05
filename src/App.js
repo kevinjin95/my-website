@@ -9,7 +9,7 @@ import CentreInterets from "./pages/CentreInterets";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-website">
       <Routes>
         <Route path="/" element={<Presentation />} />
         <Route path="/ParcoursScolaire" element={<ParcoursScolaire />} />

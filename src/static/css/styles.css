@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   text-decoration: none;
   align-items: center;
-  margin-top: 4em;
+  margin-top: 2em;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -73,9 +73,9 @@ ul {
 
 .projet ul {
   margin-right:2em;
-  font-size: 1.2em;
 }
-.Content p {
+
+.Content  {
   font-size: 1.2em;
 }
 
@@ -100,3 +100,18 @@ ul {
   justify-content:center;
 }
 
+.Content .Warning {
+  margin: 15rem;
+  color:red;
+}
+
+.Content {
+  display:flex;
+  flex-direction: column;
+  width:1000em;
+}
+
+.Skills {
+  display: flex;
+  justify-content: space-around;
+}
