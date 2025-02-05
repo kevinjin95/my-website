@@ -10,26 +10,10 @@ body {
 }
 
 .navigation {
-  flex-direction: column;
   text-decoration: none;
-  align-items: center;
   margin-top: 2em;
   margin-left: 1em;
   margin-right: 1em;
-}
-
-.content {
-  font-family: sans-serif;
-  flex-direction: column;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-li {
-  display: flex;
 }
 
 .navigation ul li {
@@ -46,9 +30,22 @@ li {
   width: 15em;
 }
 
+.Content {
+  font-size: 1.2em;
+  margin-bottom:2em;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+li {
+  display: flex;
+}
+
 ul {
   text-decoration: none;
-  margin-top: 50px;
 }
 
 .projet {
@@ -73,10 +70,6 @@ ul {
 
 .projet ul {
   margin-right:2em;
-}
-
-.Content  {
-  font-size: 1.2em;
 }
 
 .Content ul {
