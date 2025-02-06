@@ -1,7 +1,11 @@
 body {
   background-position: center;
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+body * {
   color: white;
+  text-decoration: none;
 }
 
 .Main {
@@ -16,18 +20,25 @@ body {
   margin-right: 1em;
 }
 
+/* Navigation button */
 .navigation ul li {
   margin-top: 0.6em; /* grossit l'espacement */
   margin-left: -2em; /* grossit l'espacement */
   margin-right: 2em; /* grossit l'espacement */
   padding: 1.2em; /* grossit l'élément */
-  color: white;
   flex: 1;
   font-size: 1.2em;
   font-family: monospace;
   text-decoration: none;
   background-color: rgb(0, 73, 128);
   width: 15em;
+  border-radius: 1em;
+  transition:300ms;
+}
+
+.navigation ul li:hover {
+  background-color: rgb(0, 33, 116);
+  border-radius: 0em;
 }
 
 .Content {
@@ -59,13 +70,25 @@ ul {
   margin-left: 2em; /* grossit l'espacement */
 }
 
+/* project navigation button   */
 .navBarProj div li {
-  color: white;
   margin-top: 0.5em; /* grossit l'espacement */
   margin-right: 0.5em; /* grossit l'espacement */
   margin-bottom: 1em; /* grossit l'espacement */
   padding: 1.2em; /* grossit l'élément */
   background-color: rgb(0, 123, 157);
+  border-radius: 2em;
+  transition: 300ms;
+  
+}
+
+.navBarProj div li:hover {
+  color: black;
+  /* background-color: rgb(125, 0, 0); */
+  z-index: -1;
+  background: linear-gradient(to right, rgb(125, 0, 0), rgb(125, 0, 0));
+  box-shadow:0em 0em 1.5em;
+
 }
 
 .projet ul {
