@@ -58,6 +58,12 @@ const Projets = () => {
     );
     setImage("./IMG/PokeKoD.png");
   };
+  const podcast = () => {
+    setText(
+      "Création d'un podcast avec 4 de mes camarades, avec comme sujet l'IA va-t-elle remplacer l'homme dans le développement informatique ? Contenu disponible ici : https://www.youtube.com/watch?v=LFkX7aT4smk"
+    );
+    setImage("./IMG/Podcast.PNG");
+  };
   return (
     <div className="Main">
       <div className="NavBar">
@@ -74,7 +80,10 @@ const Projets = () => {
         </p>
         <br />
         <div className="navBarProj">
-        <div onClick={pokeKoD}>
+          <div onClick={podcast}>
+            <li>Podcast</li>
+          </div>
+          <div onClick={pokeKoD}>
             <li>PokéKoD</li>
           </div>
           <div onClick={flutterApp}>
