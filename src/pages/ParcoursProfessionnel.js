@@ -30,7 +30,7 @@ const ParcoursProfessionnel = () => {
           salarié de cette société en juillet 2022.
         </p>
         <br />
-        <h2>2e année en informatique - stage à Ekinops</h2>
+        <h3>2e année en informatique - stage à Ekinops</h3>
         <p>
           Dans le cadre de ma 2e année en informatique, j'ai dû réaliser un stage en fin d'année scolaire,
           c'est une société qui fabrique des routeurs de virtualisation et autre équipements pour une 
@@ -39,6 +39,14 @@ const ParcoursProfessionnel = () => {
         <p>
           Ainsi, j'ai développé sur l'environnement de test Jenkins pour lancer un second build reprenant 
           les tests échoués du 1e build de la nuit, permettant aux testeurs de gagner beaucoup de temps.
+        </p>
+        <br />
+        <h3>3e année en informatique - stage à Ekinops</h3>
+        <p>
+          Je suis en stage dans la société où j'avais réalisé mon stage de 2e année. Cette fois, mes missions 
+          seront de factoriser du code Python 2.7 pour l'adapter à une version plus à jour. Ensuite, j'aurai 
+          pour mission de réaliser une plateforme test automatiques pour développeur pour les rendre autonomes 
+          sur la stabilité et qualité de leurs codes.
         </p>
       </div>
     </div>

@@ -6,16 +6,9 @@ import { useState } from "react";
 const Projets = () => {
   const [text, setText] = useState();
   const [image, setImage] = useState();
-  const hangmanProj = () => {
-    setText(
-      "Projet de groupe, développé en golang, l'objectif était de montrer ce qui avait été retenu de la piscine, toutes les fonctionnalités d'un vrai pendule ont été codées telle que la possibilité de rentrer une lettre, ou encore le dessin du pendule quand-on rentre une mauvaise lettre."
-    );
-    setImage("./IMG/Hangman.png");
-  };
-
   const hangmanWebProj = () => {
     setText(
-      "Projet de groupe, développé en golang et html/css, ici le but était de nosu faire apprendre le HTML/CSS, c'est le même projet que le précédent mais avec un aspect esthétique en plus."
+      "Projet de groupe, développé en golang, l'objectif était de montrer ce qui avait été retenu de la piscine et de nous faire apprendre le HTML/CSS, toutes les fonctionnalités d'un vrai pendule ont été codées telle que la possibilité de rentrer une lettre, ou encore le dessin du pendule quand-on rentre une mauvaise lettre."
     );
     setImage("./IMG/HangmanWeb.png");
   };
@@ -59,6 +52,12 @@ const Projets = () => {
     );
     setImage("./IMG/FlutterApp.PNG");
   };
+  const pokeKoD = () => {
+    setText(
+      "Création d'une application web permettant de recenser les plus de 1000 pokémons de la célèbre franchise de manga/animé/jeu vidéo Pokémon."
+    );
+    setImage("./IMG/PokeKoD.png");
+  };
   return (
     <div className="Main">
       <div className="NavBar">
@@ -75,29 +74,29 @@ const Projets = () => {
         </p>
         <br />
         <div className="navBarProj">
-          <div onClick={hangmanProj}>
-            <li>Hangman</li>
+        <div onClick={pokeKoD}>
+            <li>PokéKoD</li>
           </div>
-          <div onClick={hangmanWebProj}>
-            <li>Hangman web</li>
-          </div>
-          <div onClick={groupieProj}>
-            <li>Groupie tracker</li>
-          </div>
-          <div onClick={gameJs}>
-            <li>Jeu js</li>
-          </div>
-          <div onClick={forum}>
-            <li>Forum</li>
-          </div>
-          <div onClick={calculatrice}>
-            <li>Calculatrice</li>
+          <div onClick={flutterApp}>
+            <li>Appli Flutter</li>
           </div>
           <div onClick={dataAnalysis}>
             <li>Analyse de données</li>
           </div>
-          <div onClick={flutterApp}>
-            <li>Appli Flutter</li>
+          <div onClick={calculatrice}>
+            <li>Calculatrice</li>
+          </div>
+          <div onClick={forum}>
+            <li>Forum</li>
+          </div>
+          <div onClick={gameJs}>
+            <li>Jeu js</li>
+          </div>
+          <div onClick={groupieProj}>
+            <li>Groupie tracker</li>
+          </div>
+          <div onClick={hangmanWebProj}>
+            <li>Hangman web</li>
           </div>
         </div>
         <div className="projet">
