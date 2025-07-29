@@ -1,6 +1,7 @@
 body {
   background-position: center;
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 100%;
 }
 
 body * {
@@ -11,6 +12,7 @@ body * {
 .Main {
   display: flex;
   margin-right: 2em;
+  
 }
 
 .navigation {
@@ -44,6 +46,14 @@ body * {
 .Content {
   font-size: 1.2em;
   margin-bottom:2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.Content .Info {
+  display: grid;
+  align-items:end;
+  height:100%;
 }
 
 h1 {

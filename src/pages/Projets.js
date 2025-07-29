@@ -60,8 +60,10 @@ const Projets = () => {
   };
   const podcast = () => {
     setText(
-      "Création d'un podcast avec 4 de mes camarades, avec comme sujet l'IA va-t-elle remplacer l'homme dans le développement informatique ? Contenu disponible ici : https://www.youtube.com/watch?v=LFkX7aT4smk"
+      "Création d'un podcast avec 4 de mes camarades, avec comme sujet l'IA va-t-elle remplacer l'homme dans le développement informatique ? Contenu disponible "
     );
+    <a href="https://www.youtube.com/watch?v=LFkX7aT4smk"> ici </a>
+
     setImage("./IMG/Podcast.PNG");
   };
   return (

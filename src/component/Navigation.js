@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
-        <NavLink to="/">
+        <NavLink to="/Presentation">
           <li>Présentation</li>
         </NavLink>
         <NavLink to="/ParcoursScolaire">
@@ -22,6 +22,9 @@ const Navigation = () => {
         </NavLink>
         <NavLink to="/CentreInterets">
           <li>Centre intérêts</li>
+        </NavLink>
+        <NavLink to="/Info">
+          <li>Info</li>
         </NavLink>
       </ul>
     </div>

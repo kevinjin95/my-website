@@ -30,7 +30,7 @@ const ParcoursProfessionnel = () => {
           salarié de cette société en juillet 2022.
         </p>
         <br />
-        <h3>2e année en informatique - stage à Ekinops</h3>
+        <h3>2e année en informatique - stagiaire testeur logiciel à Ekinops</h3>
         <p>
           Dans le cadre de ma 2e année en informatique, j'ai dû réaliser un stage en fin d'année scolaire,
           c'est une société qui fabrique des routeurs de virtualisation et autre équipements pour une 
@@ -41,12 +41,24 @@ const ParcoursProfessionnel = () => {
           les tests échoués du 1e build de la nuit, permettant aux testeurs de gagner beaucoup de temps.
         </p>
         <br />
-        <h3>3e année en informatique - stage à Ekinops</h3>
+        <h3>3e année en informatique - stagiaire R&D Engineer à Ekinops</h3>
         <p>
-          Je suis en stage dans la société où j'avais réalisé mon stage de 2e année. Cette fois, mes missions 
-          seront de factoriser du code Python 2.7 pour l'adapter à une version plus à jour. Ensuite, j'aurai 
-          pour mission de réaliser une plateforme test automatiques pour développeur pour les rendre autonomes 
-          sur la stabilité et qualité de leurs codes.
+          J'ai réalisé mon stage de 3e année dans la société où j'avais déjà réalisé mon stage de 2e année. 
+          L'objectif de ce stage a été de développer un outil du service auquel j'étais rattaché, qui est un 
+          serveur Jenkins. Ce serveur était à destination des développeurs, leur donnant plus d'autonomie 
+          dans les tests de leurs codes. Mais ne venant pas du domaine du tests, la plateforme devait donc 
+          s'adapter à leurs connaissances et non l'inverse, c'est pourquoi, la plateforme a été simplifié, 
+          avec cette plateforme, ils ne pouvaient qu'éxecuter que des tests simples. 
+          Ainsi, mes missions ont été de :
+          <ul>
+            <li>- factoriser du code Python 2.7 pour l'adapter à une version plus à jour, ces codes python 
+              sont en réalité des tests permettant de valider le bon fonctionnement des versions de logiciel 
+              codé par les développeurs</li>
+            <li>- configurer la plateforme de tests Jenkins, créer les utilisateurs, créer les pages, les 
+              permissions, les jobs...</li>
+            <li>- intégrer de nouveaux équipements dans les setups du serveur Jenkins permettant ainsi aux 
+              développeurs de tester leurs versions sur une plus large gamme de produits.</li>
+          </ul>
         </p>
       </div>
     </div>
